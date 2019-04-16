@@ -1,0 +1,22 @@
+{
+  "name": "movieql00",
+  "version": "1.0.0",
+  "description": "Movieql in visual studio code",
+  "main": "index.js",
+  "repository": "https://github.com/yecha1121/graphql.git",
+  "author": "yecha1121 <yecha1121@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql-yoga": "^1.17.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
